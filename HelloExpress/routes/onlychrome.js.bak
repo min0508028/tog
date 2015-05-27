@@ -1,0 +1,19 @@
+var express = require('express');
+var router = express.Router();
+
+/* GET /product listing. */
+router.get('/onlychrome', function(req, res) {
+  // User-Agent 속성 추출
+  var agent = req.header('User-Agent');
+  
+  if(agent.toLowerCase().match(/chrome/)){
+  	res.
+  }else{
+  
+  }
+  
+  
+  res.end(output); 
+});
+
+module.exports = router;
